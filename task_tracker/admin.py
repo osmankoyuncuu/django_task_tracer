@@ -1,3 +1,4 @@
 from django.contrib import admin
+from .models import Task_Tracker
 
-# Register your models here.
+admin.site.register(Task_Tracker)
